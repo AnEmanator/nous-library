@@ -1,8 +1,9 @@
 {
 	"files": {
 		"README.md": "75e9c7b4d670a6d9e557db79bf6c0bad5b5d8e0d01928c4129ad1896f4fbffd4",
-		"index.js": "352bce7cca86e9f1db2e3fb132b580d5e8ecdaacb5426ee1398a3bcc8aad30e2",
-		"lib/commands.js": "137177d02b60ffaa085eb17850da21ab6e9571bffb5177ca14a6e27e383091cb",
+		"index.js": "34cc72e3227beb1f13f3e8a5d9f7cec27407450d1a743c4accef41cadebb747b",
+		"lib/commands.js": "b2bfc76e26b33b8bfbc90340e30ea9ee88c7240be8e10db591f6311220231f29",
+		"lib/cooldowns.js": "5f16d5892aad4592feb08dfaee855edb39fb97808c9f977e608e290ba72e8768",
 		"lib/host.js": "180543a3e7003eee48b1a838f8810e694d848282222549fbd9403166191f2fb6",
 		"lib/me.js": "a22a063735e2459148b472a29933108ae037def7c7aaf1b225a7fcb15801c640",
 		"lib/movement.js": "53d889753584534abf4865da5d239f41ce2b13400834338e7ac3976094b02d87",
@@ -10,6 +11,6 @@
 		"lib/ping.js": "8ebc68b2c4ef0880ee26a16a298f0f9bed2ad71a56a71f9a0ce533262767311e",
 		"lib/players.js": "99a619d5d2e5c6d5370ceaf001927bf822bc4f6a528b9c377e38cead2bf5daa1",
 		"lib/util.js": "275ac5ca1b69fb334fba1074afc7b71d226179ff091303f8a51b5aec0ba5646d",
-		"module.json": "b7040fa0bfae3560b69d5085149a6518f4fbb69b1e1a60c60f7787a1bac9e94c"
+		"module.json": "92b07a657b8def4f99d34f68f3ee2223bdb1b81c2b427dda4c00ad6355c94159"
 	}
 }
