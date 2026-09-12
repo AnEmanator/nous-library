@@ -2,6 +2,7 @@ const Util = require('./lib/util');
 const Host = require('./lib/host');
 const Ping = require('./lib/ping');
 const Cooldowns = require('./lib/cooldowns');
+const Passives = require('./lib/passives');
 const Me = require('./lib/me');
 const Players = require('./lib/players');
 const Npcs = require('./lib/npcs');
@@ -15,6 +16,7 @@ class Nous {
         mods.host = new Host(dispatch, mods);
         mods.ping = new Ping(dispatch, mods);
         mods.cooldowns = new Cooldowns(dispatch);
+        mods.passives = new Passives(dispatch);
         mods.me = new Me(dispatch, mods);
         mods.players = new Players(dispatch, mods);
         mods.npcs = new Npcs(dispatch, mods);
@@ -29,6 +31,7 @@ class Nous {
         this.host = mods.host;
         this.ping = mods.ping;
         this.cooldowns = mods.cooldowns;
+        this.passives = mods.passives;
 
         // boss is a real state transition (no boss -> a boss -> a different boss),
         // so unlike me/players/npcs it's fine for this to change identity
