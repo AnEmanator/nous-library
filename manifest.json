@@ -10,8 +10,8 @@
 		"lib/npcs.js": "8b60023394033693ba1d732e11076980a88dd8db6878ef963937ba442e038c20",
 		"lib/passives.js": "76afcc3bb4eab0060b7ac023231b03d1f9b10cb5e1c47e267e337b5394fd0468",
 		"lib/ping.js": "8ebc68b2c4ef0880ee26a16a298f0f9bed2ad71a56a71f9a0ce533262767311e",
-		"lib/players.js": "99a619d5d2e5c6d5370ceaf001927bf822bc4f6a528b9c377e38cead2bf5daa1",
+		"lib/players.js": "4ec1ef3d9aa3470bcc5abde90153d4b27da8a4df0e3698ed5abc3f6815634dfd",
 		"lib/util.js": "7e1a06ef91bbc4d6376d08fda7be2ea5944ff1378537eb0b42e2a24ab0b655a8",
-		"module.json": "f11a6fd3fd23941f9b92fc9bac628668c82765b397998a061800111dbc2f9a38"
+		"module.json": "cba0e44c652225b6a931749e654d2dc2e48292498dc66c62c745bff587f1873c"
 	}
 }
