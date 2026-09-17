@@ -1,7 +1,7 @@
 {
 	"name": "nous",
 	"author": "AnEmanator",
-	"version": "0.6.0",
+	"version": "0.6.1",
 	"description": "Advanced library mod. THEY see all.",
 	"servers": ["https://raw.githubusercontent.com/AnEmanator/nous-library/main/"],
 	"supportUrl": "https://github.com/AnEmanator/nous-library/issues",
