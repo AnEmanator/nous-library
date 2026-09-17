@@ -1,7 +1,7 @@
 {
 	"name": "nous",
 	"author": "AnEmanator",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "If the truth of the universe is cruel and stale, would you still yearn for the answer to the ultimate question?",
 	"servers": ["https://raw.githubusercontent.com/AnEmanator/nous-library/main/"],
 	"supportUrl": "https://github.com/AnEmanator/nous-library/issues",
