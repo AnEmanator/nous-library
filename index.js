@@ -6,6 +6,7 @@ const Passives = require('./lib/passives');
 const Me = require('./lib/me');
 const Players = require('./lib/players');
 const Npcs = require('./lib/npcs');
+const Party = require('./lib/party');
 const registerMovement = require('./lib/movement');
 const registerCommands = require('./lib/commands');
 
@@ -20,6 +21,7 @@ class Nous {
         mods.me = new Me(dispatch, mods);
         mods.players = new Players(dispatch, mods);
         mods.npcs = new Npcs(dispatch, mods);
+        mods.party = new Party(dispatch, mods);
         registerMovement(dispatch, mods);
         registerCommands(dispatch, mods);
 
@@ -28,6 +30,7 @@ class Nous {
         this.me = mods.me;
         this.players = mods.players.list;
         this.npcs = mods.npcs.list;
+        this.party = mods.party.list;
         this.host = mods.host;
         this.ping = mods.ping;
         this.cooldowns = mods.cooldowns;
